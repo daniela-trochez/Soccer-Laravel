@@ -12,7 +12,7 @@
 
 <div>
     <label> minuto:
-        <input type="text" name="minute">
+        <input type="time" name="minute">
     </label>
 </div>
 

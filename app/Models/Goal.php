@@ -8,8 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Goal extends Model
 {
     use HasFactory;
-    use HasFactory;
+   
     protected $guarded =[];
+    
     public function game(){
         return $this->belongsTo(Game::class);
     }

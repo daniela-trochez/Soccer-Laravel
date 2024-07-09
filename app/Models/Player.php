@@ -9,6 +9,7 @@ class Player extends Model
 {
     use HasFactory;
     protected $guarded =[];
+    
     public function team(){
         return $this->belongsTo(Team::class);
     }
